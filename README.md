@@ -6,12 +6,7 @@ A collection of specialized AI agents built with Pydantic AI for gathering and p
 
 This project implements two main agents:
 
-1. **Information Gathering Agent**: A general-purpose agent that helps gather travel-related information from users, including:
-   - Destination and origin
-   - Travel dates
-   - Hotel budget preferences
-
-2. **Elicitor Agent**: A specialized agent for gathering business requirements, including:
+1. **Elicitor Agent**: A specialized agent for gathering business requirements, including:
    - Specific requirements and implementation details
    - Development details (new build vs enhancement)
    - Business value and success metrics
@@ -51,11 +46,6 @@ This project implements two main agents:
 
 ## Usage
 
-### Information Gathering Agent
-```bash
-python extras/info_gathering_cli.py
-```
-
 ### Elicitor Agent
 ```bash
 python extras/elicitor_cli.py
@@ -66,16 +56,10 @@ python extras/elicitor_cli.py
 ```
 SpecShip/
 ├── agents/
-│   ├── info_gathering_agent.py   # Travel information gathering agent
 │   └── elicitor_agent.py         # Business requirements elicitor agent
 ├── extras/
-│   ├── info_gathering_cli.py     # CLI for info gathering agent
 │   └── elicitor_cli.py           # CLI for elicitor agent
 ├── utils.py                      # Shared utilities
 ├── requirements.txt              # Project dependencies
 └── .env                          # Environment configuration
 ```
-
-## License
-
-This project is licensed under the MIT License.
